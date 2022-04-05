@@ -1,11 +1,11 @@
-import LongPuling from "./LongPuling";
+// import LongPuling from "./LongPuling";
 import './App.css'
-import EventSourcing from "./EventSourcing";
+import WebSocketComponent from "./WebSocketComponent";
 
 function App() {
   return (
     <div className="App">
-     <EventSourcing/>
+     <WebSocketComponent/>
     </div>
   );
 }
