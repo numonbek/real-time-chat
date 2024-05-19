@@ -1,7 +1,10 @@
 name: Sync Fork with Upstream Dispatch
 
 on:
+  workflow_dispatch:
   repository_dispatch:
+    types:
+      - webhook
 
 jobs:
   sync:
