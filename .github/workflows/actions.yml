@@ -1,9 +1,7 @@
 name: Sync Fork with Upstream
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'
-  workflow_dispatch:
+  repository_dispatch:
 
 jobs:
   sync:
